@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     flex-direction: row;
@@ -49,16 +50,14 @@ ul {
     flex-grow: 1;
     width: 60%;
     overflow: hidden;
+    padding: 32px 24px;
     
 }
 
 #banner_pic {
     display: block;
     width: 100%;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 
 }
 
@@ -75,4 +74,81 @@ ul {
 
 .button {
 
+}
+.articles {
+    display: flex;
+    flex-direction: row;
+}
+
+.featured_left {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    display: block;
+    padding: 32px 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feat_image {
+    width: 100%;
+    display: inline;
+    padding-bottom: 32px;
+}
+
+.featured_right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: flex-start;
+    padding-left: 16px;
+    padding-top: 32px;
+
+}
+
+.orientation {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.orientation_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+.campus {
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.campus_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+.lecture {
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+.lecture_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}    
+.right_images {
+    width: 35%;
+    height: auto;
+    padding: 16px 16px;
+    
+}
+
+h4 {
+    margin: 0px;
 }
