@@ -1,4 +1,6 @@
-
+* {
+    font-family: 'open sans', sans-serif;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -40,7 +42,7 @@ ul {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: lightslategray;
+    background-color: silver;
 
 }
 
@@ -151,4 +153,56 @@ ul {
 
 h4 {
     margin: 0px;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+    padding: 32px 56px;
+    width: 100%;
+
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+   
+    
+}
+
+.courses h1 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+}
+.courses_section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-basis: 50px;
+    max-width: 275px;
+    margin: 16px;
+    justify-content: space-between;
+    text-align: left;
+    
+}
+
+.courses h4 {
+    padding: 16px;
+}
+
+.courses h5 {
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin: 0px;
+}
+.courses p {
+    padding: 24px 16px;
+    margin: 0px 
+
 }
