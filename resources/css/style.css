@@ -1,8 +1,25 @@
 * {
     font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    color: #404040;
 }
 p {
     margin: 0px;
+    font-size: 16px;
+}
+h1 {
+    font-weight: 700;
+}
+h2 {
+    font-weight: 500;
+}
+h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
+h5 {
+    font-size: 18px;
+
 }
 header {
     display: flex;
@@ -18,7 +35,13 @@ header {
     text-transform: uppercase;
 }
 #colmar {
-    font-weight: bold;
+    font-weight: 900;
+    font-size: 24px;
+}
+#academy {
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 2px;
 }
 .header_right {
     display: flex;
@@ -56,8 +79,8 @@ ul {
     width: 60%;
     overflow: hidden;
     padding: 32px 24px;
-    
 }
+
 
 #banner_pic {
     display: block;
@@ -77,8 +100,17 @@ ul {
 
 }
 
-.button {
-
+button {
+    background-color: #0099cc;
+    border: none;
+    color: white;
+    padding: 15px 102px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 24px 24px 24px 0px;
+    border-radius: 4px;
 }
 .articles {
     display: flex;
@@ -93,6 +125,15 @@ ul {
     padding: 32px 24px;
     justify-content: center;
     align-items: center;
+}
+.featured_left h2 {
+    margin: 0px;
+    padding-bottom: 24px;
+}
+#emanuel {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 700;
 }
 
 .feat_image {
@@ -153,6 +194,9 @@ ul {
     padding: 16px 16px;
     
 }
+.featured_right p {
+    padding: 8px 0px;
+}
 
 h4 {
     margin: 0px;
@@ -164,7 +208,6 @@ h4 {
     background-color: silver;
     padding: 32px 56px;
     width: 100%;
-
 }
 
 .rows {
@@ -173,8 +216,6 @@ h4 {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-   
-    
 }
 
 .courses h1 {
@@ -234,7 +275,6 @@ h1 {
     display: flex;
     flex-direction: row;
     background-color: silver;
-    j
 }
 .card_pic_white {
     display: flex;
@@ -265,19 +305,30 @@ h1 {
 .thesis_left h4 {
     padding-top: 24px;
     padding-bottom: 8px;
+    font-weight: bold;
+}
+.thesis_right h4 {
+    padding-bottom: 8px;
 }
 .thesis_left p {
     margin: 0px;
     padding-bottom: 32px;
 }
 footer {
-    padding-left: 24px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;
+    justify-content: space-between;
 }
 footer ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin: 0px;
 }
 footer li {
-    padding: 6px;
+    padding: 24px 6px;
+}
+#copyright {
+    padding: 24px 6px;
 }
