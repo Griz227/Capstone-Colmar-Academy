@@ -1,6 +1,9 @@
 * {
     font-family: 'open sans', sans-serif;
 }
+p {
+    margin: 0px;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -185,7 +188,7 @@ h4 {
     flex-direction: column;
     background-color: white;
     flex-basis: 50px;
-    max-width: 275px;
+    max-width: 325px;
     margin: 16px;
     justify-content: space-between;
     text-align: left;
@@ -204,5 +207,77 @@ h4 {
 .courses p {
     padding: 24px 16px;
     margin: 0px 
+}
 
+.thesis {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    text-align: center;
+}
+.thesis_left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+.thesis_right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.card_pic_dark {
+    display: flex;
+    flex-direction: row;
+    background-color: silver;
+    j
+}
+.card_pic_white {
+    display: flex;
+    flex-direction: row;
+}
+.dark_image {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.white_image {
+    width: 35%;
+    height: auto;
+    padding: 16px
+}
+.dark_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.white_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.thesis_left h4 {
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+.thesis_left p {
+    margin: 0px;
+    padding-bottom: 32px;
+}
+footer {
+    padding-left: 24px;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+footer li {
+    padding: 6px;
 }
